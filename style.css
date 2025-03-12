@@ -357,6 +357,47 @@ input[type="submit"]{
   text-align: center;
 }
 
+footer{
+  margin: 50px 0;
+}
+
+.infos-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-right-footer{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.cellphone-footer, .email-footer, .copyright{
+    color: #a7a7a7;
+    font-size: 16px;
+}
+.second-infos-footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.menu-footer ul{
+  display: flex;
+}
+.menu-footer ul li{
+  display: flex;
+  list-style: none;
+  margin-right: 20px;
+}
+.menu-footer ul li a{
+  font-size: 16px;
+  color: #a7a7a7;
+  text-decoration: none;
+  transition: color 1s ;
+}
+.menu-footer ul li a:hover{
+  color: #e500ce;
+}
+
 @media screen and (max-width: 1200px) {
   .menu {
     display: none;
@@ -385,6 +426,50 @@ input[type="submit"]{
 
   .mobile-menu-open a {
     color: #fff;
+  }
+
+  #apresentation{
+    margin: 20px 0;
+  }
+  .info-apresentation{
+    flex-direction:  column;
+  }
+  .info-apresentation h1{
+    font-size: 38px;
+    line-height: 42px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .container-icons{
+    flex-direction: column;
+    gap: 15px;
+  }
+  .info-project{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .card-project{
+    max-width: 400px;
+  }
+
+  .footer-project{
+    flex-direction: column;
+    gap: 15px;
+  }
+  .infos-footer{
+    flex-direction: column;
+  }
+  .container-right-footer{
+    flex-direction: column;
+
+  }
+  .second-infos-footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
   }
 }
 /* Rodapé */
